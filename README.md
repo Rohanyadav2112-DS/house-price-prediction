@@ -66,39 +66,45 @@ The models are evaluated using:
 
 ### Results
 
-Add the actual results from the notebook after running the evaluation cell.
-
 | Model | MAE ($) | RMSE ($) | R² Score |
-|---|---:|---:|---:|
-| Linear Regression | Add result | Add result | Add result |
-| Random Forest | Add result | Add result | Add result |
+| Linear Regression | 53,320.013 | 74,558.138 | 0.576 |
+| Random Forest | 32,759.935 | 50,569.357 | 0.805 |
+
+### Results and Interpretation
+
+The Random Forest Regressor performed better than Linear Regression on the test dataset.
+
+- **Linear Regression:** R² score of 0.576.
+- **Random Forest:** R² score of 0.805.
+- Random Forest reduced the mean absolute error by approximately **38.6%** compared with Linear Regression.
+
+The higher R² score indicates that Random Forest explained more of the variation in the test-set house values. These results apply to the California Housing dataset and should not be treated as estimates of current individual property prices.
 
 ## 📁 Project Structure
 
-```text
+text
 house-price-prediction/
 ├── house_price_prediction.ipynb
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-```
+
 
 ## 🚀 How to Run the Project
 
 ### 1. Clone the repository
 
-```bash
+bash
 git clone YOUR_GITHUB_REPOSITORY_URL
 cd house-price-prediction
-```
 
 Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual GitHub repository URL.
 
 ### 2. Install dependencies
 
-```bash
+bash
 python -m pip install -r requirements.txt
-```
+
 
 ### 3. Open the notebook
 
@@ -117,4 +123,4 @@ The dataset loader may download the dataset the first time it is used, so an int
 
 Rohan Yadav
 
-MSc Data Science student | Python | SQL | Machine Learning | Data Analytics
+MSc Data Science student | Python | SQL | Machine Learning | Data Analytics | Data Science
