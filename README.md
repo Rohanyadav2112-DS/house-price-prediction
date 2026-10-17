@@ -123,4 +123,4 @@ The dataset loader may download the dataset the first time it is used, so an int
 
 Rohan Yadav
 
-MSc Data Science student | Python | SQL | Machine Learning | Data Analytics | Data Science
+MSc Data Science student | Aston University | Python | SQL | Machine Learning | Data Analytics | Data Science
