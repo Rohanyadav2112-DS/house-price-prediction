@@ -67,6 +67,7 @@ The models are evaluated using:
 ### Results
 
 | Model | MAE ($) | RMSE ($) | R² Score |
+| --- | --- | --- | --- |
 | Linear Regression | 53,320.013 | 74,558.138 | 0.576 |
 | Random Forest | 32,759.935 | 50,569.357 | 0.805 |
 
@@ -82,29 +83,27 @@ The higher R² score indicates that Random Forest explained more of the variatio
 
 ## 📁 Project Structure
 
-text
+```text
 house-price-prediction/
 ├── house_price_prediction.ipynb
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
-
+```
 ## 🚀 How to Run the Project
 
 ### 1. Clone the repository
 
-bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+```bash
+git clone https://github.com/Rohanyadav2112-DS/house-price-prediction.git
 cd house-price-prediction
-
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual GitHub repository URL.
+```
 
 ### 2. Install dependencies
 
-bash
+```bash
 python -m pip install -r requirements.txt
-
+```
 
 ### 3. Open the notebook
 
