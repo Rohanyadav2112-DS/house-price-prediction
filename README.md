@@ -90,33 +90,6 @@ house-price-prediction/
 ├── requirements.txt
 └── .gitignore
 ```
-## 🚀 How to Run the Project
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Rohanyadav2112-DS/house-price-prediction.git
-cd house-price-prediction
-```
-
-### 2. Install dependencies
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-### 3. Open the notebook
-
-Open `house_price_prediction.ipynb` in Jupyter Notebook or VS Code and run the cells in order.
-
-The dataset loader may download the dataset the first time it is used, so an internet connection may be required.
-
-## ⚠️ Limitations
-
-- The dataset is based on historical census information.
-- Predictions represent district-level median values, not individual property valuations.
-- The dataset target has an upper limit, which can affect evaluation.
-- Predictions should not be used as current real-estate market valuations.
 
 ## 👨‍💻 Author
 
